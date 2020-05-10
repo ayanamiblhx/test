@@ -1,0 +1,8 @@
+.类型选择器{
+    font-size: 40px;
+    color: blue;
+}
+.类型选择器:hover{
+    font-size: 80px;
+    color: chartreuse;
+}
