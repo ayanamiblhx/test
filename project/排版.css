@@ -1,0 +1,8 @@
+.排版1{
+    display: inline-block;
+}
+.排版2{
+    margin: 0 auto;
+    width: 1200px;
+    background-color: rgb(243, 242, 237);
+}

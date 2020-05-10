@@ -1,0 +1,6 @@
+.盒子模型1{
+    border: 1px solid red;
+    background-color: rgb(68, 209, 209);
+    background-clip: content-box;
+    margin:10px 1000px 10px 10px;         /*顺序:上右下左*/
+}

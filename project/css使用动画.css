@@ -1,0 +1,72 @@
+.使用动画1{
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+}
+.使用动画1:hover{
+    animation-duration: 1s;
+    animation-delay: 200ms;
+    animation-name: 动画1;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes 动画1{
+    to{
+        width: 200px;
+        height: 200px;
+        background-color: aqua;
+    }
+}
+.使用动画2{
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+}
+.使用动画2:hover{
+    animation-duration: 1s;
+    animation-delay: 200ms;
+    animation-name: 动画2;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes 动画2{
+    from{
+        width: 150x;
+        height: 150x;
+        background-color: blue;
+    }
+    to{
+        width: 200px;
+        height: 200px;
+        background-color: aqua;
+    }
+}
+.使用动画3{
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+}
+.使用动画3:hover{
+    animation-duration: 1s;
+    animation-delay: 200ms;
+    animation-name: 动画3;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes 动画3{
+    50%{
+        width: 150px;
+        height: 150px;
+        background-color: deeppink;
+    }
+    75%{
+        width: 175px;
+        height: 175px;
+        background-color: rgb(114, 255, 20);
+    }
+    to{
+        width: 200px;
+        height: 200px;
+        background-color: aqua;
+    }
+}
